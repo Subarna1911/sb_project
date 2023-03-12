@@ -7,6 +7,13 @@
     box-sizing: border-box;
 }
 
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
 /* Responsive design */
 @media(min-width:320px) {
     .main-footer {
@@ -17,9 +24,13 @@
 
 }
 
-@media(min-width:576px) {}
+@media(min-width:576px) {
 
-@media(min-width:768px) {}
+}
+
+@media(min-width:768px) {
+
+}
 
 @media(min-width:992px) {}
 
@@ -39,7 +50,7 @@
 }
 
 /* header css */
-.top-nav {
+#top-nav {
     background-color: var(--Text-color1);
 
 
@@ -57,11 +68,6 @@
     cursor: pointer;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 25px;
-}
 
 .social-icons a i {
     color: var(--Text-color2);
@@ -184,7 +190,29 @@ li {
     list-style: none;
 }
 
+/* fourth section css */
 
+.my-card{
+    background-color: var(--primary-Lite-color);
+    width: 60%;
+    height: auto;
+    
+
+   
+}
+.progress{
+    background-color: rgb(215, 201, 201);
+    border-radius: 0px;
+  
+   
+}
+
+
+.progress-bar{
+    background-color:rgb(199, 146, 47);
+ 
+   
+}
 
 /* info */
 .info {
