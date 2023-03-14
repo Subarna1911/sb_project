@@ -7,36 +7,95 @@
     box-sizing: border-box;
 }
 
-body{
- font-family:var(--sec-font);
-    margin: 0 auto; /* Center website */
-    }
+body {
+    font-family: var(--sec-font);
+    margin: 0 auto;
+    /* Center website */
+}
 
 
 
 /* Responsive design */
-@media(min-width:320px) {
+@media (min-width:300px) and (max-width:500px){
+
+  
+}
+
+@media(min-width:500px) and (max-width:700px){
     .main-footer {
         text-align: center;
     }
 
+    .info_btn {
+        margin-bottom: 15px;
 
+    }
+
+    .info_txt {
+        text-align: center;
+
+
+    }
+
+    .card-sec {
+        margin-bottom: 15px;
+        padding: 3px;
+        text-align: center;
+    }
+
+    .ratio-21x9 {
+        --bs-aspect-ratio: 50%;
+    }
+
+    .cert-card {
+        margin-bottom: 25px;
+        padding: 3px;
+
+    }
+    .logo{
+        text-align: center;
+    }
+    .head{
+        padding:12px
+    }
+.social-icons{
+    margin-bottom: 15px;
+}
+.title{
+    text-align: center;
+}
 
 }
 
-@media(min-width:576px) {
+@media(min-width:700px) and (max-width:900px){
+   
+    .card-sec {
+        margin-bottom: 15px;
+        padding: 3px;
+        text-align: center;
+    }
+    
 
 }
 
-@media(min-width:768px) {
+@media(min-width:900px) and (max-width:1200px) {
+    .card-sec {
+        margin-bottom: 15px;
+        padding: 3px;
+        text-align: center;
+    }
 
+    .cert-card {
+        margin:25px;
+        padding: 9px;
+
+    }
 }
 
-@media(min-width:992px) {}
+@media(max-width:1400px) {}
 
-@media(min-width:1200px) {}
 
-/* color */
+/* css colors */
 :root {
     --primary-color: #30A9BC;
     --primary-Lite-color: #D6EEF2;
@@ -192,73 +251,149 @@ li {
 
 /* fourth section css */
 
-.my-card{
+.my-card {
     background-color: var(--primary-Lite-color);
     width: 60%;
     height: auto;
-    
 
-   
+
+
 }
-.ratings{
-    color:rgb(199, 146, 47);
+
+.ratings {
+    color: rgb(199, 146, 47);
     font-size: 23px;
 }
 
- 
-.ratings2{
+
+.ratings2 {
     font-size: 19px;
     color: #000000;
 }
-.progress{
+
+.progress {
     background-color: rgb(215, 201, 201);
     border-radius: 0px;
-  
-   
+
+
 }
 
 
-.progress-bar{
-    background-color:rgb(199, 146, 47);
- 
-   
+.progress-bar {
+    background-color: rgb(199, 146, 47);
+
+
 }
 
 /* section 5 */
-#section_5{
+#section_5 {
     background-color: var(--primary-Lite-color);
     margin: 0;
 }
 
-  .list-group-item{
+.list-group-item {
     background-color: var(--primary-Lite-color);
-    padding:20px;
-  }
-  .list-group i{
-    padding-right: 12px;
-  }
+    padding: 20px;
+}
 
-.check-list li i{
+.list-group i {
+    padding-right: 12px;
+}
+
+.check-list li i {
     padding-top: 12px;
 
 
 }
-.check-list i{
+
+.check-list i {
     padding-right: 6px;
 }
 
 
-/* info */
+/* section 6 */
+
+.slide-container {
+    margin: 0 30px;
+    overflow: hidden;
+}
+
+.slider_container .container {
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+
+}
+
+.card_slider {
+    padding: 150px 0;
+}
+
+
+
+
+
+
+/* section-7 */
+.small-div {
+
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 2.375rem 0
+}
+
+
+/* section8 */
+.cert-card {
+    background-color: var(--primary-Lite-color);
+    width: 30rem;
+
+}
+
+.ratio-4x3 {
+
+    width: 40%
+}
+
+
+
+
+/* card section11  */
+.card-sec {
+    background-color: var(--primary-Lite-color);
+    border-radius: 0;
+    width: 14rem;
+    height: auto;
+}
+
+/* selection  */
+.sel-option {
+    background-color: var(--primary-Lite-color);
+    background-position: fixed;
+    background-size: cover;
+    padding: 1.35rem 0
+}
+
+.form-select {
+    border: none;
+    border-radius: 0;
+    background-color: var(--primary-Lite-color);
+    width: 100%
+}
+
+
+
+/* info section-13*/
 .info {
     background-color: var(--primary-color);
+    background-size: cover;
+    background-attachment: fixed;
+
+
 }
 
-.info_txt {
-    color: white;
-
-    font-family: var(--primary-font);
-    font-size: 32px;
-}
 
 .info_btn {
     display: inline-block;
@@ -274,8 +409,9 @@ li {
 
 
 
+
 /* newsletter */
-#newsletter {
+.newsletter {
     background-color: rgb(237, 237, 237);
     padding: 28px;
 
