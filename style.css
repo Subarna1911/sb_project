@@ -16,12 +16,16 @@ body {
 
 
 /* Responsive design */
-@media (min-width:300px) and (max-width:500px){
+@media (min-width:300px) and (max-width:500px) {
 
-  
+    .card-sec {
+        margin-bottom: 15px;
+        padding: 3px;
+        text-align: center;
+    }
 }
 
-@media(min-width:500px) and (max-width:700px){
+@media(min-width:500px) and (max-width:700px) {
     .main-footer {
         text-align: center;
     }
@@ -52,29 +56,41 @@ body {
         padding: 3px;
 
     }
-    .logo{
+
+    .logo {
         text-align: center;
     }
-    .head{
-        padding:12px
+
+    .head {
+        padding: 12px
     }
-.social-icons{
-    margin-bottom: 15px;
-}
-.title{
-    text-align: center;
+
+    .social-icons {
+        margin-bottom: 15px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin: 12px;
+    }
+
+    .my_card {
+        margin-bottom: 12px;
+
+    }
 }
 
-}
+@media(min-width:700px) and (max-width:900px) {
 
-@media(min-width:700px) and (max-width:900px){
-   
     .card-sec {
         margin-bottom: 15px;
         padding: 3px;
         text-align: center;
     }
-    
+
 
 }
 
@@ -86,8 +102,13 @@ body {
     }
 
     .cert-card {
-        margin:25px;
+        margin: 25px;
         padding: 9px;
+
+    }
+
+    .my_card {
+        margin-bottom: 12px;
 
     }
 }
@@ -136,21 +157,48 @@ body {
 
 }
 
-/* NAVBAR */
+/* Change the background color of the navbar */
+.navbar-container {
+    display: flex;
+
+    justify-content: center;
+
+}
+
 .navbar {
-    background-color: var(--Text-color2);
+    background-color: #ffffff;
+
+}
+
+/* Change the color of the links in the navbar */
+.navbar a {
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+/* Change the color of the links when they're hovered over */
+.navbar a:hover {
+    color: #ceb7b7 !important;
+    text-decoration: none;
+}
+
+/* Add padding to the links in the navbar */
+.navbar-nav li a {
+    padding: 20px;
 
 }
 
 .navbar .nav-item {
-    display: flex;
-    justify-content: space-between;
-
+    padding-left: 12px;
+    padding-right: 6px;
 }
 
-.navbar .nav-link {
-    color: black;
-}
+
+
+
 
 /* first section css */
 #first_section {
@@ -366,6 +414,9 @@ li {
     border-radius: 0;
     width: 14rem;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* selection  */
